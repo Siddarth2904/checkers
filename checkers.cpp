@@ -181,7 +181,7 @@ int Playersturn(int d[][COLS], int player, int i, int j, int k, int l)
 
             if (player == RED && d[jmp_r][jmp_c] != BLACK)
             {
-                cout << "Enemeny is not Black at %d%d", jmp_r, jmp_c;
+                cout << "Enemy is not Black at %d%d", jmp_r, jmp_c;
                 return -1;
             }
             if (player == BLACK && d[jmp_r][jmp_c] != RED)
